@@ -1,0 +1,90 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: darkblue;
+}
+
+main {
+    text-align: middle;
+    font-size: 30px;
+    display: flex;
+}
+
+aside {
+    background-color: transparent;
+    float: right;
+    width: 30%;
+    height: 600px;
+    display: flex;
+    overflow: auto;
+   
+}
+
+article {
+   background-color: transparent;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 600px;
+    overflow: auto;
+
+}
+
+footer {
+   background-color: transparent;
+    clear: both;
+    overflow: auto;
+}
+
+
+html { 
+  background: url(afbeeldingen/drone-afbeelding-omhc.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+}
+
+body {
+    color: ivory;
+    font-size: 30px;
+}
+
+a.SMicon {
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+a.SMicon:hover {
+    opacity: 0.4;
+}
